@@ -9,9 +9,9 @@ margin: 10px;
 export const DivWrapper = styled.div`
 width: 460px;
 height: 550px;
-background-color: yellow;
+background-color:  #ff00ff;
 position: relative;
-
+border-radius: 20px;
 `
 
 export const İmg = styled.img`
