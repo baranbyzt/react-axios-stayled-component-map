@@ -9,7 +9,15 @@ const MainComponent = () => {
         <>
 
         <Div>
-               this is main compoenent  
+        <MainCardComponents/> 
+               <MainCardComponents/> 
+               <MainCardComponents/> 
+               <MainCardComponents/> 
+               <MainCardComponents/> 
+               <MainCardComponents/> 
+               <MainCardComponents/> 
+               <MainCardComponents/> 
+               <MainCardComponents/> 
                <MainCardComponents/>   
         </Div>
         </>

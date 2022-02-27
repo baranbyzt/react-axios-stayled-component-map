@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-  flex: 1;
-  min-height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: blue;
-`;
+background-color: red;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+flex-wrap: wrap;
+`
