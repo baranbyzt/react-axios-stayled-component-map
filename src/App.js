@@ -1,8 +1,10 @@
 
+import ApiComponent from "./components/ApiComponent";
+
 function App() {
   return (
 <>
-hello world
+<ApiComponent/>
 </>
   );
 }

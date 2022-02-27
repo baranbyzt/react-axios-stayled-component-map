@@ -1,5 +1,5 @@
 
-how to run start :
+how to run:
 
 
 1) npm install
