@@ -17,6 +17,7 @@ const MainComponent = (props) => {
         <Div>
 
          {  user.map(element => <MainCardComponents key={element.id} content={element}></MainCardComponents> ) }
+         
         </Div>
         </>
         );

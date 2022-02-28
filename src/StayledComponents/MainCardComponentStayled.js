@@ -27,6 +27,7 @@ align-items: center;
 export const P1 = styled.p`
 font-size: 16px;
 margin: 5px;
+padding: 1px;
 background-color: white;
 
 `
@@ -48,6 +49,18 @@ align-items: center;
 export const DivFooter = styled.div`
 margin: 50px auto 0px auto;
 position: absolute;
-bottom: 50px;
+bottom: 10px;
 padding: 20px;
+`
+
+export const Button = styled.button`
+background-color: green;
+font-size: 24px;
+
+position: absolute;
+bottom: 10px;
+right: 10px;
+width: 120px;
+height: 80px;
+border-radius: 10px;
 `

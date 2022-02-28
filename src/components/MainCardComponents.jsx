@@ -3,6 +3,7 @@ import {
     DivWrapper,
     İmg,
     DivSection,
+    Button,
     P1,DivPİnner,
     DivFooter,DivGeneralWrapper
  } from "../StayledComponents/MainCardComponentStayled"
@@ -11,11 +12,15 @@ import image from '../asset/images.png'
 
 const MainCardComponents = ({content}) => {
     
+
+const btn = () => {
+alert(`id --> ${content.id}`)
+}
+
 return (
-<DivGeneralWrapper>
+<DivGeneralWrapper> 
 
 <DivWrapper>
-
 <DivSection>
 <İmg src={image}></İmg>
 <DivPİnner>
@@ -53,9 +58,8 @@ return (
 <P1>website: {content.website}</P1>
 
 </DivFooter>
-
+<Button onClick={btn}>company detail</Button>
 </DivWrapper>
-
 </DivGeneralWrapper>
 )
 }
